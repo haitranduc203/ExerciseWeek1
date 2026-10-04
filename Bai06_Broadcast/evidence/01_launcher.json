@@ -1,0 +1,131 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][779,55]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "12:11",
+        "content-desc": "12:11",
+        "bounds": "[66,1][141,56]",
+        "center": "[103,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của vn.training.bai07: Sự kiện B #104",
+        "bounds": "[141,1][185,56]",
+        "center": "[163,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Bảo mật và quyền riêng tư: Thiết lập phương thức khoá màn hình",
+        "bounds": "[185,1][229,56]",
+        "center": "[207,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Hệ thống Android: Định cấu hình bàn phím vật lý",
+        "bounds": "[229,1][273,56]",
+        "center": "[251,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Cài đặt: Thẻ SD Virtual",
+        "bounds": "[273,1][317,56]",
+        "center": "[295,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Tín hiệu Wi-Fi đủ.",
+        "bounds": "[626,13][656,43]",
+        "center": "[641,28]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "Tín hiệu điện thoại đầy đủ.",
+        "bounds": "[656,6][686,50]",
+        "center": "[671,28]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Đang sạc pin, 100%.",
+        "bounds": "[698,1][714,56]",
+        "center": "[706,28]"
+      }
+    ]
+  },
+  {
+    "window-title": "vn.training.bai06",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,56][780,1662]",
+        "center": "[390,859]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Pin: 100%",
+        "bounds": "[24,80][756,153]",
+        "center": "[390,116]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Máy bay: false",
+        "bounds": "[24,153][756,226]",
+        "center": "[390,189]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Custom count\u003d0",
+        "bounds": "[24,226][756,299]",
+        "center": "[390,262]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Có mạng: true\nINTERNET: true\nVALIDATED: true",
+        "bounds": "[24,299][756,456]",
+        "center": "[390,377]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "GỬI BROADCAST NỘI BỘ",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,456][756,552]",
+        "center": "[390,504]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "MỞ CÀI ĐẶT MẠNG/MÁY BAY",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,552][756,648]",
+        "center": "[390,600]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Receiver được đăng ký onStart, hủy onStop. onReceive chỉ cập nhật UI, không làm việc nặng. goAsync vẫn có timeout, dùng Worker cho công việc dài.",
+        "bounds": "[24,648][756,847]",
+        "center": "[390,747]"
+      }
+    ]
+  }
+]

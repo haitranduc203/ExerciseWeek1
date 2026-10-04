@@ -1,0 +1,22 @@
+12:07
+
+
+
+
+
+
+
+PARTIAL
+5 ảnh được phép đọc
+CẤP QUYỀN / CHỌN LẠI ẢNH (API 34+)
+PHOTO PICKER
+TẠO VÀ LƯU BITMAP JPEG
+MÔ PHỎNG LỖI LƯU — KIỂM TRA CLEANUP
+CHỤP ẢNH TAKEPICTURE
+MỞ ẢNH VỪA LƯU TRONG GALLERY HỆ THỐNG
+Đã hủy camera, đã dọn ảnh tạm
+
+
+
+
+

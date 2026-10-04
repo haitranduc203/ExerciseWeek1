@@ -1,0 +1,56 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][779,55]",
+    "content": [
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/privacy_chip",
+        "content-desc": "Các ứng dụng đang dùng máy ảnh của bạn.",
+        "bounds": "[618,4][730,52]",
+        "center": "[674,28]"
+      }
+    ]
+  },
+  {
+    "window-title": "Máy ảnh",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.camera2:id/mode_options_toggle",
+        "content-desc": "Tùy chọn",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[659,1301][756,1398]",
+        "center": "[707,1349]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.camera2:id/three_dots",
+        "content-desc": "Tùy chọn",
+        "bounds": "[683,1325][731,1373]",
+        "center": "[707,1349]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.camera2:id/shutter_button",
+        "content-desc": "Màn trập",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,1422][780,1662]",
+        "center": "[390,1542]"
+      }
+    ]
+  }
+]

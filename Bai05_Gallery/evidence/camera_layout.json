@@ -1,0 +1,98 @@
+[
+  {
+    "window-title": "",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.FrameLayout",
+        "bounds": "[0,0][780,1710]",
+        "center": "[390,855]",
+        "children": [
+          {
+            "class": "android.widget.LinearLayout",
+            "bounds": "[0,0][780,1662]",
+            "center": "[390,831]",
+            "children": [
+              {
+                "class": "android.widget.FrameLayout",
+                "resource-id": "android:id/content",
+                "bounds": "[0,0][780,1662]",
+                "center": "[390,831]",
+                "children": [
+                  {
+                    "class": "android.widget.FrameLayout",
+                    "bounds": "[0,0][780,1662]",
+                    "center": "[390,831]",
+                    "children": [
+                      {
+                        "class": "android.widget.LinearLayout",
+                        "bounds": "[0,0][780,1662]",
+                        "center": "[390,831]",
+                        "children": [
+                          {
+                            "class": "android.widget.TextView",
+                            "text": "Nhớ vị trí chụp ảnh?",
+                            "bounds": "[180,56][600,121]",
+                            "center": "[390,88]"
+                          },
+                          {
+                            "class": "android.widget.ImageView",
+                            "bounds": "[246,177][534,442]",
+                            "center": "[390,309]"
+                          },
+                          {
+                            "class": "android.widget.LinearLayout",
+                            "bounds": "[56,498][724,1494]",
+                            "center": "[390,996]",
+                            "children": [
+                              {
+                                "class": "android.widget.CheckBox",
+                                "resource-id": "com.android.camera2:id/check_box",
+                                "text": "Gắn thẻ cho ảnh và video của bạn với những địa điểm bạn đã chụp/quay chúng.",
+                                "interactions": [
+                                  "CHECKABLE",
+                                  "CLICKABLE",
+                                  "FOCUSABLE"
+                                ],
+                                "state": [
+                                  "CHECKED"
+                                ],
+                                "bounds": "[56,498][724,625]",
+                                "center": "[390,561]"
+                              }
+                            ]
+                          },
+                          {
+                            "class": "android.widget.Button",
+                            "resource-id": "com.android.camera2:id/confirm_button",
+                            "text": "TIẾP THEO",
+                            "interactions": [
+                              "CLICKABLE",
+                              "FOCUSABLE"
+                            ],
+                            "bounds": "[246,1530][534,1626]",
+                            "center": "[390,1578]"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "resource-id": "android:id/navigationBarBackground",
+            "bounds": "[0,1662][780,1710]",
+            "center": "[390,1686]"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+12:12
+
+
+
+
+
+
+
+
+Cài đặt ngôn ngữ
+CodexStudent
+Xin chào, CodexStudent!
+Không có tin nhắn
+1 tin nhắn
+2 tin nhắn
+5 tin nhắn
+ENGLISH
+TIẾNG VIỆT
+日本語
+THEO HỆ THỐNG
+This long fallback string exists only in English to demonstrate Android resource fallback.

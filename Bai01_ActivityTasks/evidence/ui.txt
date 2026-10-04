@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+BTopActivity
+taskId=2692 instance=277b3856
+Từ BTopActivity lúc 1791089345107
+MỞ MAINACTIVITY
+MỞ BSTANDARDACTIVITY
+MỞ BTOPACTIVITY
+MỞ CACTIVITY
+MỞ DACTIVITY
+MỞ EACTIVITY
+CLEAR_TOP → B STANDARD
+CLEAR_TOP | SINGLE_TOP → B STANDARD
+NEW_DOCUMENT | MULTIPLE_TASK → E
+NEW_TASK | CLEAR_TASK → LOGIN
+NOTIFICATION → DETAIL VỚI TASKSTACKBUILDER
+X trong bảng đề bài có thể dùng A. D/E mở A để so sánh taskId. Reset từng kịch bản bằng adb shell am force-stop vn.training.bai01
+

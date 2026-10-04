@@ -1,0 +1,163 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][779,55]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "11:56",
+        "content-desc": "11:56",
+        "bounds": "[66,1][141,56]",
+        "center": "[103,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Bảo mật và quyền riêng tư: Thiết lập phương thức khoá màn hình",
+        "bounds": "[141,1][185,56]",
+        "center": "[163,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Hệ thống Android: Định cấu hình bàn phím vật lý",
+        "bounds": "[185,1][229,56]",
+        "center": "[207,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Cài đặt: Thẻ SD Virtual",
+        "bounds": "[229,1][273,56]",
+        "center": "[251,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Tín hiệu Wi-Fi đủ.",
+        "bounds": "[626,13][656,43]",
+        "center": "[641,28]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "Tín hiệu điện thoại đầy đủ.",
+        "bounds": "[656,6][686,50]",
+        "center": "[671,28]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Đang sạc pin, 100%.",
+        "bounds": "[698,1][714,56]",
+        "center": "[706,28]"
+      }
+    ]
+  },
+  {
+    "window-title": "vn.training.bai05",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "SCROLLABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,56][780,1662]",
+        "center": "[390,859]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "DENIED — có thể chọn Photo Picker; vẫn query được ảnh do app tạo\n1 ảnh được phép đọc",
+        "interactions": [
+          "EDITABLE"
+        ],
+        "bounds": "[24,80][756,237]",
+        "center": "[390,158]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "CẤP QUYỀN / CHỌN LẠI ẢNH (API 34+)",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,237][756,333]",
+        "center": "[390,285]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "PHOTO PICKER",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,333][756,429]",
+        "center": "[390,381]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "TẠO VÀ LƯU BITMAP JPEG",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,429][756,525]",
+        "center": "[390,477]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "MÔ PHỎNG LỖI LƯU — KIỂM TRA CLEANUP",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,525][756,621]",
+        "center": "[390,573]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "CHỤP ẢNH TAKEPICTURE",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,621][756,717]",
+        "center": "[390,669]"
+      },
+      {
+        "class": "android.widget.Button",
+        "text": "MỞ ẢNH VỪA LƯU TRONG GALLERY HỆ THỐNG",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,717][756,813]",
+        "center": "[390,765]"
+      },
+      {
+        "class": "android.widget.GridView",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,886][756,1662]",
+        "center": "[390,1274]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Demo_738047098900.jpg",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[24,886][268,1126]",
+        "center": "[146,1006]"
+      }
+    ]
+  }
+]

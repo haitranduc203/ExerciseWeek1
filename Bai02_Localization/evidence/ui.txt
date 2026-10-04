@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+言語設定
+Android
+こんにちは、Androidさん！
+メッセージはありません
+1件のメッセージ
+2件のメッセージ
+5件のメッセージ
+ENGLISH
+TIẾNG VIỆT
+日本語
+システム設定
+This long fallback string exists only in English to demonstrate Android resource fallback.
+

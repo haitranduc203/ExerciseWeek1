@@ -1,0 +1,6 @@
+Row: 91 _id=1000000497, _display_name=Demo_738047098900.jpg, owner_package_name=vn.training.bai05, is_pending=0
+Row: 92 _id=1000000499, _display_name=IMG_20261004_115540.jpg, owner_package_name=com.android.camera2, is_pending=0
+Row: 93 _id=1000000500, _display_name=IMG_20261004_115542.jpg, owner_package_name=com.android.camera2, is_pending=0
+Row: 94 _id=1000000501, _display_name=IMG_20261004_115543.jpg, owner_package_name=com.android.camera2, is_pending=0
+Row: 95 _id=1000000502, _display_name=IMG_20261004_115545.jpg, owner_package_name=com.android.camera2, is_pending=0
+Row: 96 _id=1000000503, _display_name=IMG_20261004_115546.jpg, owner_package_name=com.android.camera2, is_pending=0

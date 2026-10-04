@@ -1,0 +1,45 @@
+[
+  {
+    "window-title": "Máy ảnh",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.android.camera2:id/retake_button",
+        "content-desc": "Chụp lại",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,1462][160,1622]",
+        "center": "[80,1542]"
+      },
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.android.camera2:id/done_button",
+        "content-desc": "Xong",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[306,1458][474,1626]",
+        "center": "[390,1542]"
+      },
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.android.camera2:id/cancel_button",
+        "content-desc": "Hủy",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[620,1462][780,1622]",
+        "center": "[700,1542]"
+      }
+    ]
+  }
+]

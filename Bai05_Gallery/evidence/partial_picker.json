@@ -1,0 +1,330 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][779,55]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "11:56",
+        "content-desc": "11:56",
+        "bounds": "[66,1][141,56]",
+        "center": "[103,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Bảo mật và quyền riêng tư: Thiết lập phương thức khoá màn hình",
+        "bounds": "[141,1][185,56]",
+        "center": "[163,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Hệ thống Android: Định cấu hình bàn phím vật lý",
+        "bounds": "[185,1][229,56]",
+        "center": "[207,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Cài đặt: Thẻ SD Virtual",
+        "bounds": "[229,1][273,56]",
+        "center": "[251,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Tín hiệu Wi-Fi đủ.",
+        "bounds": "[626,13][656,43]",
+        "center": "[641,28]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "Tín hiệu điện thoại ba vạch.",
+        "bounds": "[656,6][686,50]",
+        "center": "[671,28]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Đang sạc pin, 100%.",
+        "bounds": "[698,1][714,56]",
+        "center": "[706,28]"
+      }
+    ]
+  },
+  {
+    "window-title": "",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][779,1710]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.providers.media.module:id/privacy_text",
+        "text": "Chọn ảnh và video mà bạn cho phép ứng dụng này truy cập",
+        "bounds": "[25,144][754,182]",
+        "center": "[389,163]"
+      },
+      {
+        "class": "androidx.viewpager.widget.ViewPager",
+        "resource-id": "com.google.android.providers.media.module:id/picker_tab_viewpager",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[0,342][780,1662]",
+        "center": "[390,1002]"
+      },
+      {
+        "class": "androidx.recyclerview.widget.RecyclerView",
+        "interactions": [
+          "SCROLLABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,342][780,1662]",
+        "center": "[390,1002]"
+      },
+      {
+        "class": "android.widget.GridView",
+        "resource-id": "com.google.android.providers.media.module:id/picker_tab_recyclerview",
+        "interactions": [
+          "SCROLLABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,342][780,1662]",
+        "center": "[390,1002]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.providers.media.module:id/date_header_title",
+        "text": "Gần đây",
+        "bounds": "[0,342][780,454]",
+        "center": "[390,398]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:55:46 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,454][256,710]",
+        "center": "[128,582]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:55:45 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[262,454][518,710]",
+        "center": "[390,582]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:55:43 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[524,454][780,710]",
+        "center": "[652,582]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:55:42 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,716][256,972]",
+        "center": "[128,844]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:55:41 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[262,716][518,972]",
+        "center": "[390,844]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 11:52:36 SA 4 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[524,716][780,972]",
+        "center": "[652,844]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,978][256,1234]",
+        "center": "[128,1106]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[262,978][518,1234]",
+        "center": "[390,1106]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[524,978][780,1234]",
+        "center": "[652,1106]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,1240][256,1496]",
+        "center": "[128,1368]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[262,1240][518,1496]",
+        "center": "[390,1368]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[524,1240][780,1496]",
+        "center": "[652,1368]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,1502][256,1662]",
+        "center": "[128,1582]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:12 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[262,1502][518,1662]",
+        "center": "[390,1582]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "content-desc": "Ảnh được chụp vào 5:02:11 CH 3 thg 10, 2026",
+        "interactions": [
+          "CLICKABLE",
+          "LONG_CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[524,1502][780,1662]",
+        "center": "[652,1582]"
+      },
+      {
+        "class": "android.widget.ImageButton",
+        "content-desc": "Hủy",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,222][112,334]",
+        "center": "[56,278]"
+      },
+      {
+        "class": "android.widget.HorizontalScrollView",
+        "resource-id": "com.google.android.providers.media.module:id/tab_layout",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "bounds": "[182,230][598,326]",
+        "center": "[390,278]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "content-desc": "Ảnh",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[182,230][390,326]",
+        "center": "[286,278]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Ảnh",
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[262,259][310,297]",
+        "center": "[286,278]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "content-desc": "Album",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[390,230][598,326]",
+        "center": "[494,278]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Album",
+        "bounds": "[453,259][534,297]",
+        "center": "[493,278]"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+12:08
+
+
+
+
+
+
+
+
+API=34
+Notifications=false
+canUseFullScreenIntent=false
+Channel importance=4
+XIN QUYỀN NOTIFICATION
+FULL-SCREEN SPECIAL ACCESS SETTINGS
+CÀI ĐẶT CHANNEL / IMPORTANCE
+GỬI BÁO THỨC NGAY
+GỬI CUỘC GỌI SAU 10S — KHÓA MÀN HÌNH ĐỂ THỬ
+GỬI 2 SỰ KIỆN ID KHÁC NHAU
+Khi đang mở khóa, hệ thống có thể chỉ hiện heads-up. Click nội dung notification luôn dùng Content Intent riêng cho từng ID. Hành vi còn phụ thuộc permission và importance của channel.

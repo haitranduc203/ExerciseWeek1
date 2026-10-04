@@ -1,0 +1,41 @@
+
+
+
+
+
+Internet, AndroidWifi
+
+
+
+
+Internet
+
+
+Bluetooth, Đang bật
+
+
+
+Bluetooth
+Đèn pin, Máy ảnh đang được sử dụng
+
+
+
+Đèn pin
+Không làm phiền, Đang tắt
+
+
+
+Không làm phiền
+
+
+Sự kiện B #104
+Nhấn để mở sự kiện 104
+
+vn.training.bai07
+
+
+
+
+Sự kiện A
+Event ID=103
+ĐÓNG SỰ KIỆN

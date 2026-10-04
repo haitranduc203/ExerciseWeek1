@@ -1,0 +1,4 @@
+beforePID=8462 afterPID=8715
+--------- beginning of main
+10-04 12:06:56.733  8462  8462 I GalleryDemo: launch camera uri=content://vn.training.bai05.camera/camera/capture_5996860314304545945.jpg
+10-04 12:07:07.704  8715  8715 I GalleryDemo: camera result=true uri=content://vn.training.bai05.camera/camera/capture_5996860314304545945.jpg

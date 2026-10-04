@@ -1,0 +1,20 @@
+
+12:11
+
+
+
+
+
+
+
+
+
+Pin: 100%
+Máy bay: false
+Custom event #2: Hello Android
+Có mạng: true
+INTERNET: true
+VALIDATED: true
+GỬI BROADCAST NỘI BỘ
+MỞ CÀI ĐẶT MẠNG/MÁY BAY
+Receiver được đăng ký onStart, hủy onStop. onReceive chỉ cập nhật UI, không làm việc nặng. goAsync vẫn có timeout, dùng Worker cho công việc dài.

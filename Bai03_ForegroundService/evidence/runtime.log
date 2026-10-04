@@ -1,0 +1,76 @@
+10-04 11:50:46.205   546   616 V BackupManagerService: [UserID:0] restoreAtInstall pkg=vn.training.bai03 token=3 restoreSet=0
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{a9493e8 com.fintrack.app/10208} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{49650a6 com.shoestore.app/10195} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{6f71ae7 com.example.realtimechat/10197} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{993153d com.haitranduc203.offlinefirstmovie.test/10217} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{5551cc2 vn.training.bai02/10192} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{e46d132 vn.training.bai01/10190} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{6907e83 com.example.androidtrainingexample/10201} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{e63f800 com.example.smsshield/10218} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.207   546   616 I AppsFilter: interaction: PackageSetting{620c839 com.haitranduc203.offlinefirstmovie/10216} -> PackageSetting{ca4150d vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.267   970   970 D CarrierSvcBindHelper: onPackageAdded: vn.training.bai03
+10-04 11:50:46.274   970  1263 D ImsResolver: maybeAddedImsService, packageName: vn.training.bai03
+10-04 11:50:46.305  1384  1384 I SafetyLabelChangedBroadcastReceiver: received broadcast packageName: vn.training.bai03, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-04 11:50:46.320   785   836 V WindowManagerShell: Transition requested: android.os.BinderProxy@f726b5a TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=2695 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=vn.training.bai03/.MainActivity } baseActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} topActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} origActivity=null realActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} numActivities=1 lastActiveTime=628318 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@209518b} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{1524268 vn.training.bai03.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-04 11:50:46.323   546   766 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=vn.training.bai03/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-04 11:50:46.383   546   586 I ActivityManager: Start proc 5244:vn.training.bai03/u0a193 for next-top-activity {vn.training.bai03/vn.training.bai03.MainActivity}
+10-04 11:50:46.390   546  1135 D CoreBackPreview: Window{f9a734a u0 Splash Screen vn.training.bai03}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ccd9125, mPriority=0, mIsAnimationCallback=false}
+10-04 11:50:46.500   546   750 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10193, mPackageName='vn.training.bai03, mAppProcessToken='null'}
+10-04 11:50:46.588   546   573 V WindowManager: Sent Transition #15 createdAt=10-04 11:50:46.297 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=2695 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=vn.training.bai03/.MainActivity } baseActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} topActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} origActivity=null realActivity=ComponentInfo{vn.training.bai03/vn.training.bai03.MainActivity} numActivities=1 lastActiveTime=628318 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{92e9c88 Task{5333cc0 #2695 type=standard A=10193:vn.training.bai03}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{5ba4621 vn.training.bai03.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-04 11:50:46.589   546   573 V WindowManager:     info={id=15 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{92e9c88 Task{5333cc0 #2695 type=standard A=10193:vn.training.bai03}}} m=OPEN f=NONE leash=Surface(name=Task=2695)/@0x66472b0 sb=Rect(0, 0 - 780, 1710) eb=Rect(0, 0 - 780, 1710) d=0},{WCT{RemoteToken{531561e Task{b28c22b #2694 type=standard A=10192:vn.training.bai02}}} m=TO_BACK f=NONE leash=Surface(name=Task=2694)/@0x6cb0ea0 sb=Rect(0, 0 - 780, 1710) eb=Rect(0, 0 - 780, 1710) d=0}]}
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{f098a1b com.fintrack.app/10208} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{6eff991 com.shoestore.app/10195} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{95da0f6 com.example.realtimechat/10197} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{82cacf7 com.haitranduc203.offlinefirstmovie.test/10217} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{5c31764 vn.training.bai02/10192} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{899dcd vn.training.bai01/10190} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{23ad682 com.example.androidtrainingexample/10201} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{af52193 com.example.smsshield/10218} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.597   546   546 I AppsFilter: interaction: PackageSetting{54c45d0 com.haitranduc203.offlinefirstmovie/10216} -> PackageSetting{b0637b8 vn.training.bai03/10193} BLOCKED
+10-04 11:50:46.649  1360  1360 I AiAiEcho: AppFetcherImplV2 updateApps package:[vn.training.bai03], userId:[0], reason:[package is added.].
+10-04 11:50:46.735   970   970 D CarrierSvcBindHelper: onPackageModified: vn.training.bai03
+10-04 11:50:46.769   970  1263 D ImsResolver: maybeAddedImsService, packageName: vn.training.bai03
+10-04 11:50:46.798  5244  5244 W ziparchive: Unable to open '/data/app/~~DkSCwwkIH4h5qmH7XYU6pA==/vn.training.bai03-pG_aSFZJmHBfPU-rg0Qm6w==/base.dm': No such file or directory
+10-04 11:50:46.798  5244  5244 W ziparchive: Unable to open '/data/app/~~DkSCwwkIH4h5qmH7XYU6pA==/vn.training.bai03-pG_aSFZJmHBfPU-rg0Qm6w==/base.dm': No such file or directory
+10-04 11:50:46.851  5244  5244 D nativeloader: Configuring clns-6 for other apk /data/app/~~DkSCwwkIH4h5qmH7XYU6pA==/vn.training.bai03-pG_aSFZJmHBfPU-rg0Qm6w==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~DkSCwwkIH4h5qmH7XYU6pA==/vn.training.bai03-pG_aSFZJmHBfPU-rg0Qm6w==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/vn.training.bai03
+10-04 11:50:46.897  5244  5244 V GraphicsEnvironment: ANGLE GameManagerService for vn.training.bai03: false
+10-04 11:50:46.897  5244  5244 V GraphicsEnvironment: vn.training.bai03 is not listed in per-application setting
+10-04 11:50:46.908  1360  1360 I AiAiEcho: AppFetcherImpl onPackageChanged vn.training.bai03.
+10-04 11:50:46.915  1360  5283 I AiAiEcho: AppIndexer Package:[vn.training.bai03] UserProfile:[0] Enabled:[true].
+10-04 11:50:46.916  1360  5283 I AiAiEcho: AppFetcherImplV2 updateApps package:[vn.training.bai03], userId:[0], reason:[package is updated.].
+10-04 11:50:47.085  1496  5288 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) vn.training.bai03
+10-04 11:50:47.692   546  1135 D CoreBackPreview: Window{eaa2dfb u0 vn.training.bai03/vn.training.bai03.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5ca6173, mPriority=0, mIsAnimationCallback=false}
+10-04 11:50:48.147   546   573 W ziparchive: Unable to open '/data/app/~~DkSCwwkIH4h5qmH7XYU6pA==/vn.training.bai03-pG_aSFZJmHBfPU-rg0Qm6w==/base.dm': No such file or directory
+10-04 11:50:48.148   546   573 I ActivityTaskManager: Displayed vn.training.bai03/.MainActivity for user 0: +1s860ms
+10-04 11:50:48.217   546  2383 I ImeTracker: vn.training.bai03:b534b4cc: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-04 11:50:48.217   546  2383 I ImeTracker: vn.training.bai03:b534b4cc: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-04 11:50:48.218   546  1135 W InputManager-JNI: Input channel object 'f9a734a Splash Screen vn.training.bai03 (client)' was disposed without first being removed with the input manager!
+10-04 11:50:48.223   546  1295 D CoreBackPreview: Window{f9a734a u0 Splash Screen vn.training.bai03 EXITING}: Setting back callback null
+10-04 11:50:48.230  1313  1313 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=vn.training.bai03, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-04 11:50:48.240   546  1295 W PackageConfigPersister: App-specific configuration not found for packageName: vn.training.bai03 and userId: 0
+10-04 11:50:52.976  5244  5401 D ProfileInstaller: Installing profile for vn.training.bai03
+10-04 11:50:54.883   546  2158 I ActivityManager: Background started FGS: Allowed [callingPackage: vn.training.bai03; callingUid: 10193; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=PLAY cmp=vn.training.bai03/.PlayerService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+10-04 11:50:55.035  5244  5244 V ActivityThread: getPackageInfo() caused update to cached ApplicationInfo for package vn.training.bai03
+10-04 11:50:56.159  5244  5416 I PlayerDemo: tick=1 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:50:57.171  5244  5416 I PlayerDemo: tick=2 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:50:58.185  5244  5416 I PlayerDemo: tick=3 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:50:59.195  5244  5416 I PlayerDemo: tick=4 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:00.205  5244  5416 I PlayerDemo: tick=5 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:01.215  5244  5416 I PlayerDemo: tick=6 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:02.223  5244  5416 I PlayerDemo: tick=7 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:03.232  5244  5416 I PlayerDemo: tick=8 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:04.239  5244  5416 I PlayerDemo: tick=9 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:05.246  5244  5416 I PlayerDemo: tick=10 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:06.251  5244  5416 I PlayerDemo: tick=11 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:07.258  5244  5416 I PlayerDemo: tick=12 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:08.267  5244  5416 I PlayerDemo: tick=13 playing=true thread=DefaultDispatcher-worker-1
+10-04 11:51:09.283  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:10.288  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:11.296  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:12.306  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:13.314  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:14.334  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:15.347  5244  5416 I PlayerDemo: tick=13 playing=false thread=DefaultDispatcher-worker-1
+10-04 11:51:15.382   546   568 W ForegroundServiceTypeLoggerModule: Logger should be tracking FGS types correctly for UID 10193 in package vn.training.bai03
+10-04 11:51:15.384   546   568 W ForegroundServiceTypeLoggerModule: Logger should be tracking FGS types correctly for UID 10193 in package vn.training.bai03
+10-04 11:51:15.408  5244  5244 I PlayerDemo: stopped

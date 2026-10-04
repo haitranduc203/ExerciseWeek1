@@ -1,0 +1,22 @@
+# Local build output and machine configuration
+**/.gradle/
+**/build/
+**/.idea/
+**/local.properties
+**/*.iml
+**/.cxx/
+**/.externalNativeBuild/
+**/captures/
+**/__pycache__/
+**/current_layout.json
+*.jks
+*.keystore
+*.p12
+.env
+.env.*
+
+# Unused original Android CLI Compose template; exercise 4 uses server/client
+/Bai04_AIDL/app/
+# Original Compose tests are excluded from the exercise source sets
+**/src/test/
+**/src/androidTest/

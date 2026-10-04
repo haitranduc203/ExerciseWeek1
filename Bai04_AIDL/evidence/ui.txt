@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+Client PID=5721 — connected=2
+Tên sách / ID cần xóa
+KẾT NỐI LẠI / TẠO 2 PHIÊN CLIENT
+THÊM SÁCH TỪ CẢ 2 PHIÊN ĐỒNG THỜI
+LẤY DANH SÁCH VÀ SỐ LƯỢNG (IO)
+REMOVEBOOK(ID)
+count=2
+533464956: Android Book / 1
+534311356: Android Book / 2
+

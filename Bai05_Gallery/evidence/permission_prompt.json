@@ -1,0 +1,134 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][779,55]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "11:56",
+        "content-desc": "11:56",
+        "bounds": "[66,1][141,56]",
+        "center": "[103,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Bảo mật và quyền riêng tư: Thiết lập phương thức khoá màn hình",
+        "bounds": "[141,1][185,56]",
+        "center": "[163,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Hệ thống Android: Định cấu hình bàn phím vật lý",
+        "bounds": "[185,1][229,56]",
+        "center": "[207,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Thông báo của Cài đặt: Thẻ SD Virtual",
+        "bounds": "[229,1][273,56]",
+        "center": "[251,28]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Tín hiệu Wi-Fi đủ.",
+        "bounds": "[626,13][656,43]",
+        "center": "[641,28]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "Tín hiệu điện thoại đầy đủ.",
+        "bounds": "[656,6][686,50]",
+        "center": "[671,28]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Đang sạc pin, 100%.",
+        "bounds": "[698,1][714,56]",
+        "center": "[706,28]"
+      }
+    ]
+  },
+  {
+    "window-title": "Cho phép vn.training.bai05 truy cập vào ảnh và video trên thiết bị này?",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[19,464][760,1252]",
+    "content": [
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "bounds": "[19,465][760,1253]",
+        "center": "[389,859]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.permissioncontroller:id/grant_singleton",
+        "interactions": [
+          "CLICKABLE"
+        ],
+        "bounds": "[19,465][760,1253]",
+        "center": "[389,859]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.permissioncontroller:id/grant_dialog",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[19,465][760,1253]",
+        "center": "[389,859]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.permissioncontroller:id/permission_message",
+        "text": "Cho phép vn.training.bai05 truy cập vào ảnh và video trên thiết bị này?",
+        "bounds": "[99,621][680,769]",
+        "center": "[389,695]"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_allow_selected_button",
+        "text": "Chọn ảnh và video",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[99,821][680,933]",
+        "center": "[389,877]"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_allow_all_button",
+        "text": "Cho phép tất cả",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[99,941][680,1053]",
+        "center": "[389,997]"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Không cho phép",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[99,1061][680,1173]",
+        "center": "[389,1117]"
+      }
+    ]
+  }
+]

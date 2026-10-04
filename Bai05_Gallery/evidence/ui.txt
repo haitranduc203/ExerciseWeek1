@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+DENIED — có thể chọn Photo Picker; vẫn query được ảnh do app tạo
+1 ảnh được phép đọc
+CẤP QUYỀN / CHỌN LẠI ẢNH (API 34+)
+PHOTO PICKER
+TẠO VÀ LƯU BITMAP JPEG
+MÔ PHỎNG LỖI LƯU — KIỂM TRA CLEANUP
+CHỤP ẢNH TAKEPICTURE
+MỞ ẢNH VỪA LƯU TRONG GALLERY HỆ THỐNG
+Lưu thất bại, đã cleanup: Lỗi lưu mô phỏng trước publish
+
+
+

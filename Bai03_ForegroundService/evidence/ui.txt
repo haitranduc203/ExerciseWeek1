@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+Music Player — bộ đếm mô phỏng, không phát audio
+Service=false playing=false elapsed=0s
+CẤP QUYỀN NOTIFICATION (API 33+)
+PLAY / START
+PAUSE
+STOP
+START DATASYNC TIMEOUT DEMO
+STOP DATASYNC
+

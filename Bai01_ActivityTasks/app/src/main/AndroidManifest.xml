@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+<application android:theme="@style/DemoTheme" android:label="vn.training.bai01" android:allowBackup="false" >
+<activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+<activity android:name=".BStandardActivity" android:exported="false" android:launchMode="standard" />
+<activity android:name=".BTopActivity" android:exported="false" android:launchMode="singleTop" />
+<activity android:name=".CActivity" android:exported="false" android:launchMode="singleTask" />
+<activity android:name=".DActivity" android:exported="false" android:launchMode="singleInstance" />
+<activity android:name=".EActivity" android:exported="false" android:launchMode="singleInstancePerTask" />
+<activity android:name=".LoginActivity" android:exported="false" android:launchMode="standard" />
+<activity android:name=".DetailActivity" android:exported="false" android:launchMode="standard" android:parentActivityName=".MainActivity" />
+</application></manifest>
