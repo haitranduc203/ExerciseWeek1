@@ -1,0 +1,7 @@
+--------- beginning of main
+10-05 14:14:43.893  9761  9761 I FullScreenDemo: event=101 label=Sự kiện A fullScreen=true importance=4
+10-05 14:14:43.905  9761  9761 I FullScreenDemo: event=102 label=Sự kiện B fullScreen=true importance=4
+10-05 14:14:54.950  9761  9761 I FullScreenDemo: opened Sự kiện A
+10-05 14:14:54.950  9761  9761 I FullScreenDemo: Event ID=101
+10-05 14:15:05.267  9761  9761 I FullScreenDemo: opened Sự kiện B
+10-05 14:15:05.267  9761  9761 I FullScreenDemo: Event ID=102

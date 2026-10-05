@@ -1,4 +1,17 @@
 # Kết quả kiểm chứng
+## Bản Jetpack Compose — 05/10/2026
+
+- `:client:assembleDebug :server:assembleDebug :client:lintDebug :server:lintDebug`: **BUILD SUCCESSFUL**. Lint: client: 0 lỗi/12 cảnh báo; server: 0 lỗi/24 cảnh báo; còn cảnh báo phiên bản dependency/SDK, tài nguyên mẫu chưa dùng và gợi ý Kotlin/catalog.
+- Pixel_6 AVD Android 15/API 35: cài/mở cả server và client cùng debug certificate.
+- Client hiển thị `connected=2`; thêm sách đồng thời nhận callback session 1 và 2; lấy danh sách hiển thị `count=2` và hai sách.
+- Bằng chứng: [server](evidence/compose_server.xml), [client](evidence/compose_client.xml), [ảnh client](evidence/compose_client.png), [log](evidence/compose_runtime.log).
+- Chưa thử lại removeBook, server death/reconnect, signature khác, xoay với input hoặc API 31/32 trên bản Compose.
+
+## Bản Views trước khi chuyển Compose
+
+Các kết quả và bằng chứng bên dưới thuộc bản Views cũ.
+
+
 Build APK và lintDebug thành công (exit 0). Xem evidence/build.log. Lint còn cảnh báo học tập như chuỗi UI hardcode; không có lỗi lint. Không có unit tests riêng; kiểm chứng chính bằng build/lint và thao tác thiết bị thực tế.
 
 | Kịch bản | Dự đoán | Kết quả thực đo |

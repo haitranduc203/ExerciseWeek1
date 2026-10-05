@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hierarchy rotation="0">
+  <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+    <node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+      <node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+        <node index="0" text="" resource-id="" class="androidx.compose.ui.platform.ComposeView" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+          <node index="0" text="" resource-id="" class="android.view.View" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+            <node index="0" text="" resource-id="" class="android.view.View" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+              <node index="0" text="" resource-id="" class="android.widget.ScrollView" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,128][1080,2337]">
+                <node index="0" text="Sự kiện A&#xA;Event ID=101" resource-id="" class="android.widget.TextView" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,191][325,317]" />
+                <node index="1" text="" resource-id="" class="android.view.View" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,360][1017,486]">
+                  <node index="0" text="Đóng sự kiện" resource-id="" class="android.widget.TextView" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[433,396][647,449]" />
+                  <node index="1" text="" resource-id="" class="android.widget.Button" package="vn.training.bai07" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,370][1017,475]" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</hierarchy>

@@ -1,6 +1,6 @@
 # Bài 5: MediaStore Gallery
 ## Cấu hình
-Kotlin + AndroidX Views; minSdk=31, targetSdk=36, compileSdk=36; AGP=9.1.1, Gradle=9.3.1.
+Kotlin + Jetpack Compose Material 3; minSdk=31, targetSdk=36, compileSdk=36; AGP=9.1.1, Gradle=9.3.1.
 ## Build
 `./gradlew.bat assembleDebug lintDebug` (PowerShell: `.\gradlew.bat ...`). Bài 4 build cả `server` và `client`.
 ## Chạy và nghiệm thu
@@ -16,8 +16,10 @@ RESULTS.md và evidence/ ghi kết quả đã đo; ô chưa chạy phải đư�
 ## APK đã build
 - `app/build/outputs/apk/debug/app-debug.apk`
 
-Template CLI cũ được giữ trên disk làm tham chiếu; các test Compose ở src/test và src/androidTest được loại khỏi source set của bài Views. Với bài 4, module app mẫu không nằm trong settings.gradle.kts; chỉ server/client là bài nộp.
+Giao diện dùng `setContent`, `DemoScreen`, `Text` và `ActionButton` trong Kotlin Compose; không dùng layout XML, ViewBinding hay `DemoActivity`. Giữ XML tài nguyên/cấu hình Android. Template CLI và test mẫu cũ giữ riêng, không coi các test này là kiểm chứng bản Compose. Bài 4 chỉ build hai module server/client.
 
 ## Lưu ý camera đã kiểm chứng
 TakePicture ghi vào FileProvider files/camera; sau success app chép JPEG vào MediaStore qua IS_PENDING rồi publish. Không cấp URI của entry IS_PENDING cho camera ngoài app vì provider trên emulator API34 từ chối non-owner. URI lưu cả Bundle và trạng thái bền vững; file tạm dọn khi success/cancel/launch failed.
 Máy thử đã có 5 ảnh IMG_20261004_115540..115546 do com.android.camera2 tạo (owner_package_name trong evidence/media_after_cancel.txt).
+
+Gallery dùng LazyVerticalGrid ba cột và Coil Compose AsyncImage; URI ảnh chọn/lưu là state để cập nhật preview và lưới.

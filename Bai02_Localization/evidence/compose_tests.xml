@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="3" failures="0" errors="0" skipped="0" time="11.184" timestamp="2026-10-05T06:47:49" hostname="localhost">
+  <testsuite name="vn.training.bai02.LocalizationTest" tests="3" failures="0" errors="0" skipped="0" time="10.197" timestamp="2026-10-05T06:47:49" hostname="localhost">
+    <properties>
+      <property name="device" value="Pixel_6(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="switchingLanguagesPreservesUnicodeNameAndLocalizesMessages" classname="vn.training.bai02.LocalizationTest" time="5.188" />
+    <testcase name="emptyNameSurvivesRecreation" classname="vn.training.bai02.LocalizationTest" time="2.099" />
+    <testcase name="longNameSurvivesRecreationAndIsPersisted" classname="vn.training.bai02.LocalizationTest" time="2.91" />
+  </testsuite>
+</testsuites>

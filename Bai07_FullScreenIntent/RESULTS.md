@@ -1,4 +1,18 @@
 # Kết quả kiểm chứng
+## Bản Jetpack Compose — 05/10/2026
+
+- `:app:assembleDebug :app:lintDebug`: **BUILD SUCCESSFUL**. Lint: 0 lỗi, 36 cảnh báo; còn cảnh báo phiên bản dependency/SDK, tài nguyên mẫu chưa dùng và gợi ý Kotlin/catalog.
+- Pixel_6 AVD Android 15/API 35: launcher mở; sau cấp POST_NOTIFICATIONS hiển thị `Notifications=true`.
+- Gửi hai sự kiện tạo A #101 và B #102. Bấm từng notification trong shade: AlarmActivity Compose hiển thị lần lượt `Event ID=101` và `Event ID=102`; nút đóng hoạt động.
+- Log: `fullScreen=true importance=4`; phép đo này là mở Content Intent khi máy đang mở khóa, không chứng minh full-screen khi khóa.
+- Bằng chứng: [Main UI](evidence/compose_main.xml), [Alarm UI](evidence/compose_alarm.xml), [notification](evidence/compose_notifications.xml), [log](evidence/compose_runtime.log).
+- Chưa thử lại FSI khi khóa, cuộc gọi trễ 10 giây, onNewIntent cùng Activity, từ chối quyền/special access, giảm channel importance hoặc API 31/32 trên bản Compose.
+
+## Bản Views trước khi chuyển Compose
+
+Các kết quả và bằng chứng bên dưới thuộc bản Views cũ.
+
+
 Build APK và lintDebug thành công (exit 0). Xem evidence/build.log. Lint còn cảnh báo học tập như chuỗi UI hardcode; không có lỗi lint. Không có unit tests riêng; kiểm chứng chính bằng build/lint và thao tác thiết bị thực tế.
 
 | Kịch bản | Dự đoán | Kết quả thực đo |

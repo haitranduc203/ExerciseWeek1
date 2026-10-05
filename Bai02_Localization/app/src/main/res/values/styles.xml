@@ -1,1 +1,3 @@
-<resources><style name="DemoTheme" parent="Theme.AppCompat.DayNight.NoActionBar" /></resources>
+<resources>
+    <style name="DemoTheme" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

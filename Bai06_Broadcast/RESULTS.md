@@ -1,4 +1,17 @@
 # Kết quả kiểm chứng
+## Bản Jetpack Compose — 05/10/2026
+
+- `:app:assembleDebug :app:lintDebug`: **BUILD SUCCESSFUL**. Lint: 0 lỗi, 33 cảnh báo; còn cảnh báo phiên bản dependency/SDK, tài nguyên mẫu chưa dùng và gợi ý Kotlin/catalog.
+- Pixel_6 AVD Android 15/API 35: launcher hiển thị phần trăm pin và INTERNET/VALIDATED.
+- Gửi nội bộ một lần hiển thị `Custom event #1`; Home rồi mở lại, gửi một lần tiếp hiển thị `Custom event #2`. Không tăng trùng; log có đăng ký/hủy theo vòng đời.
+- Bằng chứng: [UI](evidence/compose_broadcast.xml), [ảnh](evidence/compose_broadcast.png), [log](evidence/compose_runtime.log).
+- Chưa thử lại thay đổi máy bay/mạng, xoay màn hình hoặc API 31/32 trên bản Compose.
+
+## Bản Views trước khi chuyển Compose
+
+Các kết quả và bằng chứng bên dưới thuộc bản Views cũ.
+
+
 Build APK và lintDebug thành công (exit 0). Xem evidence/build.log. Lint còn cảnh báo học tập như chuỗi UI hardcode; không có lỗi lint. Không có unit tests riêng; kiểm chứng chính bằng build/lint và thao tác thiết bị thực tế.
 
 | Kịch bản | Dự đoán | Kết quả thực đo |

@@ -1,0 +1,11 @@
+--------- beginning of main
+10-05 14:08:56.812  8556  8657 I PlayerDemo: tick=1 playing=true thread=DefaultDispatcher-worker-2
+10-05 14:08:57.816  8556  8657 I PlayerDemo: tick=2 playing=true thread=DefaultDispatcher-worker-2
+10-05 14:08:58.822  8556  8657 I PlayerDemo: tick=3 playing=true thread=DefaultDispatcher-worker-2
+10-05 14:08:59.828  8556  8657 I PlayerDemo: tick=4 playing=true thread=DefaultDispatcher-worker-2
+10-05 14:09:00.839  8556  8657 I PlayerDemo: tick=4 playing=false thread=DefaultDispatcher-worker-2
+10-05 14:09:01.847  8556  8657 I PlayerDemo: tick=4 playing=false thread=DefaultDispatcher-worker-2
+10-05 14:09:02.853  8556  8657 I PlayerDemo: tick=4 playing=false thread=DefaultDispatcher-worker-2
+10-05 14:09:03.860  8556  8657 I PlayerDemo: tick=4 playing=false thread=DefaultDispatcher-worker-2
+10-05 14:09:04.865  8556  8657 I PlayerDemo: tick=4 playing=false thread=DefaultDispatcher-worker-2
+10-05 14:09:04.902  8556  8556 I PlayerDemo: stopped

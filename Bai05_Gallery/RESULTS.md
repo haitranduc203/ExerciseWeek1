@@ -1,4 +1,18 @@
 # Kết quả kiểm chứng
+## Bản Jetpack Compose — 05/10/2026
+
+- `:app:assembleDebug :app:lintDebug`: **BUILD SUCCESSFUL**. Lint: 0 lỗi, 37 cảnh báo; còn cảnh báo phiên bản dependency/SDK, tài nguyên mẫu chưa dùng và gợi ý Kotlin/catalog.
+- Pixel_6 AVD Android 15/API 35: launcher mở; lưu bitmap hiển thị `Saved: content://media/...`; preview và thumbnail Coil Compose hiển thị JPEG.
+- Mô phỏng lỗi lưu hiển thị thông báo cleanup. Query MediaStore thành công xác nhận số ảnh của app trước/sau vẫn 1, ảnh đã publish `is_pending=0`: [trước](evidence/compose_media_before_failure.txt), [sau](evidence/compose_media_after_failure.txt).
+- TakePicture tạo URI FileProvider rồi nhận `camera result=false`; UI hiển thị đã hủy camera/đã dọn ảnh tạm và thư mục files/camera trống. [Log](evidence/compose_runtime.log), [UI](evidence/compose_camera_cancel.xml).
+- Bằng chứng lưới/preview: [ảnh](evidence/compose_gallery_grid.png), [cây UI](evidence/compose_gallery_grid.xml).
+- Chưa thử lại chụp ảnh thành công, chọn ảnh qua Photo Picker, ma trận FULL/PARTIAL/DENIED, xoay khi camera mở hoặc API 31/32 trên bản Compose.
+
+## Bản Views trước khi chuyển Compose
+
+Các kết quả và bằng chứng bên dưới thuộc bản Views cũ.
+
+
 Build APK và lintDebug thành công (exit 0). Xem evidence/build.log. Lint còn cảnh báo học tập như chuỗi UI hardcode; không có lỗi lint. Không có unit tests riêng; kiểm chứng chính bằng build/lint và thao tác thiết bị thực tế.
 
 | Kịch bản | Dự đoán | Kết quả thực đo |

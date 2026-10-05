@@ -1,0 +1,3 @@
+--------- beginning of main
+10-05 14:19:08.947  9371  9371 I GalleryDemo: launch camera uri=content://vn.training.bai05.camera/camera/capture_831586154321886733.jpg
+10-05 14:19:12.058  9371  9371 I GalleryDemo: camera result=false uri=content://vn.training.bai05.camera/camera/capture_831586154321886733.jpg

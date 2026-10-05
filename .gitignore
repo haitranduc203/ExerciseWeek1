@@ -1,6 +1,7 @@
 # Local build output and machine configuration
 **/.gradle/
 **/build/
+/.build-tmp/
 **/.idea/
 **/local.properties
 **/*.iml
@@ -20,3 +21,6 @@
 # Original Compose tests are excluded from the exercise source sets
 **/src/test/
 **/src/androidTest/
+
+# Bài 2 now uses Compose and has active instrumentation tests.
+!/Bai02_Localization/app/src/androidTest/

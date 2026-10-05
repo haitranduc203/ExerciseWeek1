@@ -1,8 +1,15 @@
 # Bài 2: Localization
 ## Cấu hình
-Kotlin + AndroidX Views; minSdk=31, targetSdk=36, compileSdk=36; AGP=9.1.1, Gradle=9.3.1.
+Kotlin + Jetpack Compose Material 3; minSdk=31, targetSdk=36, compileSdk=36; AGP=9.1.1, Gradle=9.3.1; Compose compiler=2.3.20, Compose BOM=2026.03.01.
+
+## Giao diện Compose
+- `MainActivity.kt`: `setContent`, lưu tên bằng `rememberSaveable` và SharedPreferences, đổi locale bằng AppCompat.
+- `LocalizationScreen.kt`: `OutlinedTextField`, lời chào, plurals 0/1/2/5, nút chọn ngôn ngữ, fallback; có preview English/Việt/日本語, theme sáng/tối và màn hình cuộn với system/IME insets.
+- Không dùng layout XML, ViewBinding hay `DemoActivity`. Giữ `strings.xml`, theme AppCompat và `locales_config.xml` để Android quản lý tài nguyên và ngôn ngữ ứng dụng.
 ## Build
-`./gradlew.bat assembleDebug lintDebug` (PowerShell: `.\gradlew.bat ...`). Bài 4 build cả `server` và `client`.
+PowerShell: `.\gradlew.bat :app:assembleDebug :app:lintDebug`.
+
+Có emulator/thiết bị: `.\gradlew.bat :app:connectedDebugAndroidTest`. Test Compose kiểm tra đổi ba ngôn ngữ, plurals/fallback, về locale hệ thống và giữ tên Unicode/dài/rỗng khi Activity recreate. Test nhập tên mẫu và đặt lại locale về hệ thống sau mỗi case.
 ## Chạy và nghiệm thu
 Nhập tên dài; lần lượt đổi English/Việt/日本語/System; xoay, force-stop rồi mở lại. Kiểm tra tên còn nguyên và số 0/1/2/5.
 Fallback đã được tạo chủ ý: chuỗi fallback chỉ có trong values mặc định. AppCompat autoStoreLocales cho <=32, hệ thống localeConfig cho >=33. Theo hệ thống dùng locale list rỗng.
@@ -15,4 +22,4 @@ RESULTS.md và evidence/ ghi kết quả đã đo; ô chưa chạy phải đư�
 ## APK đã build
 - `app/build/outputs/apk/debug/app-debug.apk`
 
-Template CLI cũ được giữ trên disk làm tham chiếu; các test Compose ở src/test và src/androidTest được loại khỏi source set của bài Views. Với bài 4, module app mẫu không nằm trong settings.gradle.kts; chỉ server/client là bài nộp.
+Test Compose nằm trong `app/src/androidTest/java/vn/training/bai02/LocalizationTest.kt` và dùng source set Android mặc định.
