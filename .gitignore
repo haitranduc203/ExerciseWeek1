@@ -24,3 +24,6 @@
 
 # Bài 2 now uses Compose and has active instrumentation tests.
 !/Bai02_Localization/app/src/androidTest/
+
+# Active Compose instrumentation tests in NotificationPractice
+!/NotificationPractice/app/src/androidTest/

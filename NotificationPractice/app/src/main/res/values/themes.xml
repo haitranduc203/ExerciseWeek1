@@ -1,0 +1,4 @@
+<resources>
+    <!-- Theme cửa sổ Android; giao diện thực tế dùng Compose MaterialTheme. -->
+    <style name="Theme.NotificationPractice" parent="android:style/Theme.Material.Light.NoActionBar" />
+</resources>

@@ -14,6 +14,7 @@ Mỗi project có một file Markdown riêng, gồm cấu hình, thứ tự vi�
 | Bài 6 — BroadcastReceiver | [HUONG_DAN_CODE_VA_TEST.md](Bai06_Broadcast/HUONG_DAN_CODE_VA_TEST.md) |
 | Bài 7 — Full-Screen Intent | [HUONG_DAN_CODE_VA_TEST.md](Bai07_FullScreenIntent/HUONG_DAN_CODE_VA_TEST.md) |
 | MiniGallery — Jetpack Compose | [HUONG_DAN_CODE_VA_TEST.md](MiniGallery/HUONG_DAN_CODE_VA_TEST.md) |
+| Notification Practice — PendingIntent / Content Intent | [Hướng dẫn Compose](NotificationPractice/docs/PENDINGINTENT_CONTENTINTENT_GUIDE.md) |
 
 Các hướng dẫn được đối chiếu mã nguồn và biên bản hiện có; những case chưa có bằng chứng runtime được ghi rõ để tiếp tục kiểm thử.
 
@@ -40,3 +41,9 @@ Chạy `.\BUILD_ALL.ps1` để build/lint cả bộ; script tìm JBR Android Stu
 Bổ sung project độc lập [MiniGallery](MiniGallery/README.md): đọc ảnh qua MediaStore, tìm kiếm/sắp xếp, xem chi tiết, chọn tối đa 10 ảnh bằng Photo Picker và lưu bản sao. UI dùng Jetpack Compose Material 3; minSdk 29, targetSdk 36, compileSdk 36.1, JBR/JDK 21.
 
 Mở riêng thư mục `MiniGallery/` trong Android Studio. Project có 15 unit test và 7 instrumentation test; [biên bản kiểm chứng và ảnh nghiệm thu](MiniGallery/docs/verification/RESULTS.md). Script BUILD_ALL.ps1 dành cho bảy bài thực hành phía trên; build MiniGallery theo README riêng.
+
+## PendingIntent và Content Intent — Jetpack Compose
+
+Bổ sung project độc lập [NotificationPractice](NotificationPractice/README.md): hai tin nhắn A/B, chạm notification mở Detail, action đánh dấu đã đọc và chế độ tái hiện lỗi dùng chung PendingIntent khi chỉ đổi extras.
+
+Mở riêng folder `NotificationPractice/` bằng Android Studio. Giao diện Compose Material 3; minSdk 29, targetSdk 36, compileSdk 36.1, Kotlin/Compose compiler 2.2.10 và JDK 21. Xem [hướng dẫn tự code lại](NotificationPractice/docs/PENDINGINTENT_CONTENTINTENT_GUIDE.md) và [biên bản kiểm chứng](NotificationPractice/docs/VERIFICATION.md). Bản Compose đã build/lint và 4/4 instrumentation tests đạt trên API 35. Chạy kiểm tra bằng `NotificationPractice/scripts/Check-Project.ps1`; BUILD_ALL.ps1 phía trên vẫn dành cho bộ bảy bài.

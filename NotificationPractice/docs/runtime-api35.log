@@ -1,0 +1,14 @@
+--------- beginning of main
+10-05 11:40:02.584  5317  5317 D NotificationPractice: POST message_id=A, notificationId=101, contentRequestCode=101
+10-05 11:40:02.653  5317  5317 D NotificationPractice: POST message_id=B, notificationId=102, contentRequestCode=102
+10-05 11:40:33.229  5317  5317 D NotificationPractice: onCreate OPEN message_id=A
+10-05 11:41:07.338  5317  5317 D NotificationPractice: onNewIntent OPEN message_id=B
+10-05 11:41:30.407  5317  5317 D NotificationPractice: POST message_id=B, notificationId=102, contentRequestCode=102
+10-05 11:42:03.835  5317  5317 D NotificationPractice: POST message_id=A, notificationId=101, contentRequestCode=101
+10-05 11:42:26.809  5317  5317 D NotificationPractice: MARK_READ message_id=A, canceled=101
+10-05 11:44:15.952  5317  5317 D NotificationPractice: POST message_id=A, notificationId=101, contentRequestCode=0
+10-05 11:44:16.077  5317  5317 D NotificationPractice: POST message_id=B, notificationId=102, contentRequestCode=0
+10-05 11:44:32.210  5317  5317 D NotificationPractice: onCreate OPEN message_id=B
+10-05 11:45:37.313  5821  5821 D NotificationPractice: POST message_id=B, notificationId=102, contentRequestCode=102
+10-05 11:45:37.419  5821  5821 D NotificationPractice: POST message_id=A, notificationId=101, contentRequestCode=101
+10-05 11:45:57.099  5821  5821 D NotificationPractice: MARK_READ message_id=A, canceled=101
