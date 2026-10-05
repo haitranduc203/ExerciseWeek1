@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-04",
+  "package": "com.example.minigallery",
+  "unitTests": 15,
+  "instrumentationTests": 7,
+  "failures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 17,
+  "apkBytes": 32193546
+}

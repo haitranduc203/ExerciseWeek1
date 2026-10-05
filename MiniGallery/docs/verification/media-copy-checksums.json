@@ -1,0 +1,92 @@
+[
+  {
+    "copyId": "1000000531",
+    "copyName": "MiniGallery_20261004_211700_265_1000000488.png",
+    "sourceId": "1000000488",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_197_1000000457.png",
+    "sha256": "ab1bc639bab17f70a7add80b3c9e07de7dd6cdd3316b19bfdc13c84c56462947",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000532",
+    "copyName": "MiniGallery_20261004_211700_726_1000000489.png",
+    "sourceId": "1000000489",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_280_1000000458.png",
+    "sha256": "114e2d43c247acc486c493213473929e51480dfc3c7b50da435a453e2052c1b0",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000533",
+    "copyName": "MiniGallery_20261004_211700_943_1000000490.png",
+    "sourceId": "1000000490",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_374_1000000459.png",
+    "sha256": "33600e6e84d07859259afc9173ca69e3b5a9c06e7bd5f3ffbe27466d60a60a04",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000534",
+    "copyName": "MiniGallery_20261004_211701_027_1000000491.png",
+    "sourceId": "1000000491",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_466_1000000450.png",
+    "sha256": "1eee84e171980524c6f408bbee3967817a117758394c212646f86153a0fc4bef",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000535",
+    "copyName": "MiniGallery_20261004_211701_106_1000000492.png",
+    "sourceId": "1000000492",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_533_1000000451.png",
+    "sha256": "78fb483a3865087b261ba2c31c562bf6e3ec856e2f5b32f089c4c85015f8db13",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000536",
+    "copyName": "MiniGallery_20261004_211701_161_1000000493.png",
+    "sourceId": "1000000493",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_602_1000000452.png",
+    "sha256": "73cec1d237f26acf0954743f90b6a0a0f21ae7a221de04610ec98d5ae4acc03b",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000537",
+    "copyName": "MiniGallery_20261004_211701_224_1000000494.png",
+    "sourceId": "1000000494",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_688_1000000453.png",
+    "sha256": "c8a0ebefe4b8cfe89cc33a6a2fbf015c25daf916b2a15011ede6bbd187d68088",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000538",
+    "copyName": "MiniGallery_20261004_211701_273_1000000495.png",
+    "sourceId": "1000000495",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170212_754_1000000454.png",
+    "sha256": "4fc83536d984febd41ebcaa608c18985345799c9aebb433deebdc51f74300b48",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000539",
+    "copyName": "MiniGallery_20261004_211701_326_1000000486.png",
+    "sourceId": "1000000486",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170211_646_1000000455.png",
+    "sha256": "57951260807e4886763551219fcaf613509bba10071d560485d9185009e11b97",
+    "equal": true,
+    "isPending": 0
+  },
+  {
+    "copyId": "1000000540",
+    "copyName": "MiniGallery_20261004_211701_360_1000000487.png",
+    "sourceId": "1000000487",
+    "sourcePath": "/sdcard/Pictures/MiniGallery/MiniGallery_20261003_170211_823_1000000456.png",
+    "sha256": "f1d09769f3a7f62d450ae6409cddb29c51434287e2a757a6659fd50dc4a58806",
+    "equal": true,
+    "isPending": 0
+  }
+]

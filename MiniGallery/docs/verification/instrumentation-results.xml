@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="7" failures="0" errors="0" skipped="0" time="9.312" timestamp="2026-10-04T14:09:09" hostname="localhost">
+  <testsuite name="com.example.minigallery.GalleryScreenTest" tests="4" failures="0" errors="0" skipped="0" time="7.598" timestamp="2026-10-04T14:09:09" hostname="localhost">
+    <properties>
+      <property name="device" value="Pixel_7_Pro(AVD) - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="searchPublishesInputToState" classname="com.example.minigallery.GalleryScreenTest" time="3.928" />
+    <testcase name="photoClickShowsMetadata" classname="com.example.minigallery.GalleryScreenTest" time="1.636" />
+    <testcase name="completedBatchCannotBeSavedAgainAndCanBeClosed" classname="com.example.minigallery.GalleryScreenTest" time="1.215" />
+    <testcase name="deniedPermissionStillAllowsPicker" classname="com.example.minigallery.GalleryScreenTest" time="0.819" />
+  </testsuite>
+  <testsuite name="com.example.minigallery.MediaStoreRepositoryInstrumentedTest" tests="3" failures="0" errors="0" skipped="0" time="0.567" timestamp="2026-10-04T14:09:09" hostname="localhost">
+    <properties>
+      <property name="device" value="Pixel_7_Pro(AVD) - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="deletedSourceFailsWithoutLeavingPendingRow" classname="com.example.minigallery.MediaStoreRepositoryInstrumentedTest" time="0.263" />
+    <testcase name="copyPreservesSourceBytesAndPublishesTarget" classname="com.example.minigallery.MediaStoreRepositoryInstrumentedTest" time="0.168" />
+    <testcase name="cancellationDuringCopyRemovesUnfinishedTarget" classname="com.example.minigallery.MediaStoreRepositoryInstrumentedTest" time="0.136" />
+  </testsuite>
+</testsuites>

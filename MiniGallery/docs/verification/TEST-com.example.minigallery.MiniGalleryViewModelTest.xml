@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.minigallery.MiniGalleryViewModelTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-04T14:08:42.087Z" hostname="HAIDEPZAI" time="0.07">
+  <properties/>
+  <testcase name="loi luu duoc hien thi cho tung anh va ket thuc batch" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.02"/>
+  <testcase name="trang thai import ghi nhan tien do tung anh va ket qua thanh cong that bai" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.004"/>
+  <testcase name="quay lai voi cung quyen van tai lai tap anh duoc phep" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.006"/>
+  <testcase name="loi metadata dung loading va thong bao cho nguoi dung" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.002"/>
+  <testcase name="chon hon 10 anh chi lay toi da 10 anh" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.005"/>
+  <testcase name="tim kiem theo ten loc dung ket qua theo Collections filter" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.014"/>
+  <testcase name="bam luu lien tiep chi tao mot ban sao" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.005"/>
+  <testcase name="khi bi tu choi quyen thi xoa danh sach anh va ve trang thai Denied" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.003"/>
+  <testcase name="sap xep dung thu tu theo Collections sortedBy va sortedByDescending" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.003"/>
+  <testcase name="batch da hoan tat khong duoc luu lai" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.003"/>
+  <testcase name="huy import khong de giao dien bi khoa" classname="com.example.minigallery.MiniGalleryViewModelTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

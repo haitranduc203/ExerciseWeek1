@@ -16,3 +16,9 @@ Không coi build thành công là đã xác nhận mọi hành vi runtime; bản
 Đã đo launchMode standard/singleTop, đổi locale/persistence, FGS Play/Pause/Stop và worker thread, AIDL hai phiên/callback/server death/reconnect, Gallery FULL/PARTIAL/DENIED/bitmap/camera/cleanup, receiver lifecycle, notification ID riêng. Chi tiết và những nhánh chưa kiểm chứng nằm trong RESULTS.md từng bài.
 Các API31/32/33/35/36, dataSync timeout API35, full-screen khi khóa và channel giảm importance chưa kiểm chứng runtime trên các cấu hình đó.
 Chạy `.\BUILD_ALL.ps1` để build/lint cả bộ; script tìm JBR Android Studio khi JAVA_HOME chưa được đặt. Không có unit-test suite riêng.
+
+## MiniGallery Jetpack Compose
+
+Bổ sung project độc lập [MiniGallery](MiniGallery/README.md): đọc ảnh qua MediaStore, tìm kiếm/sắp xếp, xem chi tiết, chọn tối đa 10 ảnh bằng Photo Picker và lưu bản sao. UI dùng Jetpack Compose Material 3; minSdk 29, targetSdk 36, compileSdk 36.1, JBR/JDK 21.
+
+Mở riêng thư mục `MiniGallery/` trong Android Studio. Project có 15 unit test và 7 instrumentation test; [biên bản kiểm chứng và ảnh nghiệm thu](MiniGallery/docs/verification/RESULTS.md). Script BUILD_ALL.ps1 hiện dành cho bảy bài Views phía trên; build bản Compose theo README riêng.
